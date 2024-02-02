@@ -122,7 +122,7 @@ img {
 	color: #000;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
 	.menu-right {
 		display: none;
 	}
