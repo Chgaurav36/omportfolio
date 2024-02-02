@@ -46,17 +46,17 @@ body {
 }
 
 .menu-left {
-	left: -50%;
+	left: -100%;
 }
 
 .menu-right {
-	right: -50%;
+	right: -100%;
 }
 
 .menu-link a {
 	text-decoration: none;
 	color: #fff;
-	font-size: 100px;
+	font-size: 5rem;
 }
 
 .menu-link:first-child a::before {
@@ -134,7 +134,7 @@ img {
 	.menu-close {
 		position: fixed;
 		top: 10%;
-		left: 80%;
+		left: 85%;
 		transform: translate(-50%, -50%);
 		margin: 40px;
 	}
@@ -145,5 +145,8 @@ img {
 
 	img {
 		width: 40%;
+	}
+	.menu-link a{
+		font-size: 4rem;
 	}
 }
